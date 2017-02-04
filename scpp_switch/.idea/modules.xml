@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../scpp_base/.idea/scpp_base.iml" filepath="$PROJECT_DIR$/../scpp_base/.idea/scpp_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scpp_minner/.idea/scpp_minner.iml" filepath="$PROJECT_DIR$/../scpp_minner/.idea/scpp_minner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scpp_minner_two/.idea/scpp_minner_two.iml" filepath="$PROJECT_DIR$/../scpp_minner_two/.idea/scpp_minner_two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/scpp_switch.iml" filepath="$PROJECT_DIR$/.idea/scpp_switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scpp_test_minner/.idea/scpp_test_minner.iml" filepath="$PROJECT_DIR$/../scpp_test_minner/.idea/scpp_test_minner.iml" />
+    </modules>
+  </component>
+</project>

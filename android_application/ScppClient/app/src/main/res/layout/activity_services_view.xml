@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+            <include layout="@layout/activity_app_bar"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Services List"
+                android:id="@+id/tvServices"
+                android:layout_marginTop="89dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Car Pooling"
+                android:id="@+id/btCarpooling"
+                android:layout_marginTop="61dp"
+                android:layout_below="@+id/tvServices"
+                android:layout_alignLeft="@+id/tvServices"
+                android:layout_alignStart="@+id/tvServices" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Items"
+                android:id="@+id/btBuyItem"
+                android:layout_below="@+id/btCarpooling"
+                android:layout_alignLeft="@+id/tvServices"
+                android:layout_alignStart="@+id/tvServices"
+                android:layout_alignRight="@+id/btCarpooling"
+                android:layout_alignEnd="@+id/btCarpooling" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_shape"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/dialog_header_shape">
+
+            <TextView
+                android:id="@+id/information_message_dialog_layout_message_header_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Information"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp">
+            </TextView>
+
+            <Button
+                android:layout_width="60dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:layout_height="32dp"
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/information_message_dialog_layout_cancel_button"
+                android:background="@drawable/button_selector"
+                android:text="Cancel">
+            </Button>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:padding="5dp">
+
+            <TextView
+                android:text="message"
+                android:id="@+id/information_message_dialog_layout_message_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000">
+            </TextView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="2dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:textColor="#FFFFFF"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:id="@+id/information_message_dialog_layout_ok_button"
+                android:background="@drawable/button_selector"
+                android:text="Ok">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

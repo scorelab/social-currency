@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Scpp</string>
+    <string name="preference_file_key">scpp.globaleye.com.scppclient.PREFERENCE_FILE_KEY</string>
+    <string name="new_senz">SCPP Message received</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="profile">Profile</string>
+    <string name="ButtonServices">Services</string>
+    <string name="font_awesome_android_icon">&#xf17b;</string>
+    <string name="font_awesome_area_chart_icon">&#xf1fe;</string>
+    <string name="font_awesome_home_icon">&#xf015;</string>
+    <string name="font_awesome_mobile_phone_icon">&#xf10b;</string>
+    <string name="wallet_info_title">Wallet Details</string>
+    <string name="coin_Value">0.0 $</string>
+    <string name="coin_rate_lable">Coin Rate :</string>
+    <string name="title_activity_buy_item">BuyItemActivity</string>
+
+    <string name="shop_prompt">Choose a Shop</string>
+    <string-array name="shop_name_spinner">
+        <item>Cargills Food City</item>
+        <item>Keels</item>
+        <item>Fashion Bug</item>
+        <item>NoLimit</item>
+        <item>Arpico Super Store</item>
+        <item>MacDonalles</item>
+        <item>Laughs Supermarket</item>
+    </string-array>
+
+    <string name="sccp_coin_hash">Coin :</string>
+    <string name="send_info_title">Coin Transaction</string>
+    <string name="coin_hash_value">0.0</string>
+
+
+
+</resources>

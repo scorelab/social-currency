@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="scpp.globaleye.com.scppclient.ui.WalletInfo">
+
+    <include layout="@layout/activity_app_bar"
+        android:id="@+id/include2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Bill No :"
+        android:id="@+id/tvBillNo"
+        android:layout_marginTop="105dp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Shop Name :"
+        android:id="@+id/tvShopName"
+        android:layout_below="@+id/tvBillNo"
+        android:layout_alignLeft="@+id/tvBillNo"
+        android:layout_alignStart="@+id/tvBillNo"
+        android:layout_marginTop="36dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Item"
+        android:id="@+id/btBuyItem"
+        android:layout_marginTop="55dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/etBillAount"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Bill Amount :"
+        android:id="@+id/tvAmount"
+        android:textColor="#080808"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBillNo"
+        android:layout_alignTop="@+id/tvBillNo"
+        android:layout_toRightOf="@+id/tvShopName"
+        android:layout_alignRight="@+id/shop_name_spinner"
+        android:layout_alignEnd="@+id/shop_name_spinner" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etBillAount"
+        android:layout_alignTop="@+id/tvAmount"
+        android:layout_alignRight="@+id/shop_name_spinner"
+        android:layout_alignEnd="@+id/shop_name_spinner"
+        android:layout_toRightOf="@+id/tvAmount"
+        android:layout_toEndOf="@+id/tvAmount" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/shop_name_spinner"
+        android:prompt="@string/shop_prompt"
+        android:id="@+id/shop_name_spinner"
+        android:layout_alignTop="@+id/tvShopName"
+        android:layout_toRightOf="@+id/tvShopName"
+        android:layout_toEndOf="@+id/tvShopName"
+        />
+
+
+</RelativeLayout>
+

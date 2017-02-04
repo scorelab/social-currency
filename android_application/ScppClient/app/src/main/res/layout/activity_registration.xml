@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="scpp.globaleye.com.scppclient.ui.Registration">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="User Name"
+            android:id="@+id/ruserName_lb"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/tfUpdateUserName"
+            android:layout_below="@+id/ruserName_lb"
+            android:layout_centerHorizontal="true" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:id="@+id/rbutton"
+            android:layout_below="@+id/etUPConfirmPasswordeditText"
+            android:layout_alignLeft="@+id/etUPConfirmPasswordeditText"
+            android:layout_alignStart="@+id/etUPConfirmPasswordeditText"
+            android:layout_alignRight="@+id/etUPConfirmPasswordeditText"
+            android:layout_alignEnd="@+id/etUPConfirmPasswordeditText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="password"
+            android:id="@+id/passwordlable"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_below="@+id/tfUpdateUserName"
+            android:layout_alignLeft="@+id/ruserName_lb"
+            android:layout_alignStart="@+id/ruserName_lb" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/etUpdatpasswordtxt"
+            android:layout_below="@+id/passwordlable"
+            android:layout_alignLeft="@+id/tfUpdateUserName"
+            android:layout_alignStart="@+id/tfUpdateUserName" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/etUPConfirmPasswordeditText"
+            android:layout_below="@+id/cmtextView"
+            android:layout_alignLeft="@+id/etUpdatpasswordtxt"
+            android:layout_alignStart="@+id/etUpdatpasswordtxt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Comfirm password"
+            android:id="@+id/cmtextView"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_below="@+id/etUpdatpasswordtxt"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:visibility="visible"
+            android:src="@drawable/scpp_global"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</ScrollView>

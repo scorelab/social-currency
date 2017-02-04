@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".ui.Login">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="User Name"
+                android:id="@+id/userName_lb"
+                android:textSize="20dp"
+                android:layout_below="@+id/imageView2"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/luserName_txt"
+                android:layout_below="@+id/userName_lb"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:id="@+id/lbutton"
+                android:layout_below="@+id/lpasswordTxt"
+                android:layout_alignLeft="@+id/lrButton"
+                android:layout_alignStart="@+id/lrButton"
+                android:layout_alignRight="@+id/lrButton"
+                android:layout_alignEnd="@+id/lrButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Password"
+                android:id="@+id/logingpasswordTxt"
+                android:textColor="@android:color/background_dark"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_below="@+id/luserName_txt"
+                android:layout_alignRight="@+id/lrButton"
+                android:layout_alignEnd="@+id/lrButton"
+                android:layout_alignLeft="@+id/lrButton"
+                android:layout_alignStart="@+id/lrButton" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/lpasswordTxt"
+                android:layout_below="@+id/logingpasswordTxt"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registration"
+                android:id="@+id/lrButton"
+                android:layout_below="@+id/lbutton"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:visibility="visible"
+                android:src="@drawable/scpp_global"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</ScrollView>

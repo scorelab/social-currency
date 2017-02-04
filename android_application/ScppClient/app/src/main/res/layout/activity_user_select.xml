@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.UserSelect">
+
+        <include layout="@layout/activity_app_bar"
+            android:id="@+id/include"
+             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sender Name"
+            android:id="@+id/share_lb"
+            android:layout_alignBottom="@+id/share_user_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="62dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/share_user_name"
+            android:layout_marginTop="128dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:id="@+id/shareBtn"
+            android:layout_below="@+id/share_lb"
+            android:layout_marginTop="25dp"
+            android:layout_alignRight="@+id/share_user_name"
+            android:layout_alignEnd="@+id/share_user_name"
+            android:layout_alignLeft="@+id/share_user_name"
+            android:layout_alignStart="@+id/share_user_name" />
+
+
+    </RelativeLayout>
+</ScrollView>

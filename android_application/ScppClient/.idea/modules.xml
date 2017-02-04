@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ScppClient.iml" filepath="$PROJECT_DIR$/ScppClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/json_org_src/json_org_src.iml" filepath="$PROJECT_DIR$/json_org_src/json_org_src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/senzc/senzc.iml" filepath="$PROJECT_DIR$/senzc/senzc.iml" />
+    </modules>
+  </component>
+</project>

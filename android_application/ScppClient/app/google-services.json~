@@ -1,0 +1,52 @@
+{
+  "project_info": {
+    "project_number": "178828080387",
+    "project_id": "default-demo-app-42084"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178828080387:android:27d689d63f1b7a06",
+        "android_client_info": {
+          "package_name": "scpp.globaleye.com.scppclient"  
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178828080387-oi3f36u2cgvr11doc1nafo62c7l35id3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "scpp.globaleye.com.scppclient",
+            "certificate_hash": "20E06401DEF4E23788DFC2B145FDA99E721ABE6B"
+          }
+        },
+        {
+          "client_id": "178828080387-5il9ogrfp9emlq89vu0r532lmdb1brk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrXqGSyV7vDARYxIDa8GYFnIKW9bjRYyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
+
+
+

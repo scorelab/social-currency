@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/icon2"
+            android:src="@drawable/ic_back_black"
+            android:layout_height="match_parent"
+            android:onClick="goBack"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/icon"
+            android:src="@drawable/ic_home_black_48dp"
+            android:layout_height="match_parent"
+            android:onClick="goHome"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/icon1"
+            android:src="@drawable/ic_maual_black"
+            android:layout_height="match_parent"
+            android:onClick="goManual"/>
+
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/icon3"
+            android:src="@drawable/ic_logout_black"
+            android:layout_height="match_parent"
+            android:onClick="logout"/>
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+</LinearLayout>
